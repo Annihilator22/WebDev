@@ -1,0 +1,39 @@
+.thumbnail-1{
+    width: 100%;
+}
+
+.Video-title{
+    margin-top: 0;
+}
+.video-stats{
+    margin-top: 0;
+    display: inline-block;
+    
+}
+.video-creator{
+    margin-bottom: 0;
+}
+
+.channel-1{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+
+}
+.video-info{
+    display: inline-block;
+    width: 200px;
+}
+.profile-picture{
+    width: 50px;
+    border-radius: 25px;
+}
+.thumbnail-row{
+    margin-bottom: 12px ;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
